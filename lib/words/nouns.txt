@@ -1,6 +1,7 @@
 ability
 adversary
 allegiance
+ambush
 ancestor
 animal
 Arrakis
@@ -126,7 +127,7 @@ Iakin Nefud
 Ichwan Bedwine
 Idaho
 imperium
-indignities
+indignity
 inheritance
 inner eye
 insight
@@ -139,6 +140,7 @@ jihad
 Judge of the Change
 Kwisatz Haderach
 Landsraad
+lasgun
 leader
 legend
 legion
@@ -158,11 +160,10 @@ maula
 melange
 memory
 Mentat
-mercenaries
+mercenary
 message
 messiah
 meteor
-military
 million deaths
 mind-killer
 miner
@@ -242,7 +243,6 @@ Shadout
 shadows
 Shai-Hulud
 shield
-shield wall
 shigawire
 shout
 shrub
@@ -307,6 +307,7 @@ vision
 Vladimir
 Voice
 Voice from the Outer World
+wall
 Wanna Marcus
 war
 water bond

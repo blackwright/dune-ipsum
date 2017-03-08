@@ -1,11 +1,13 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require './lib/generator'
+require "./helpers/dune_helper"
+require './lib/paragraph'
 
-helpers GeneratorHelper
+helpers DuneHelper
 
 get '/' do
-
+  @dune = Paragraph.new.text
+  erb :index
 end
 
 get '/:paragraphs' do
