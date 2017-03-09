@@ -39,7 +39,10 @@ body {
   font-family: "Eczar", "Times New Roman", serif;
   font-size: 16px;
   color: #1E1E1E;
-  background: #eee url("/img/dune.jpg") no-repeat;
+  background: #eee url("/img/dune.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding-bottom: 75px;
   min-height: 100%; }
@@ -159,5 +162,24 @@ footer {
   footer a {
     color: #F62459;
     text-decoration: none; }
+
+@media screen and (max-width: 500px) {
+  main {
+    padding: 0 10px; }
+
+  #container {
+    left: 0; }
+    #container #button-container {
+      left: 0; }
+      #container #button-container button {
+        width: 90px;
+        margin-left: 10px;
+        padding: 0; }
+
+  #box {
+    padding: 50px 5px 5px 5px; }
+
+  footer {
+    left: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
