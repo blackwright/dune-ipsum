@@ -58,7 +58,8 @@ class Sentence
         end
         sentence << word
       end
-      sentence[0].capitalize!
+      first_word = sentence[0]
+      first_word = first_word[0].upcase + first_word[1..-1]
       sentence.join(" ").gsub(" , ", ", ") + ". "
     end
 end
