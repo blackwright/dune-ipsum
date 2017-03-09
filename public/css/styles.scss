@@ -10,104 +10,170 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Style */
 
-html, body {
+html {
   height: 100%;
 }
 
 body {
+  position: relative;
   font-family: "Eczar", "Times New Roman", serif;
   font-size: 16px;
-  color: #333;
+  color: #1E1E1E;
   background: #eee url('/img/dune.jpg') no-repeat;
   background-size: cover;
-  padding: 60px 0;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+main {
+  padding: 0 40px;
+}
+
+.header-box {
+  padding: 6px 10px;
+  background-color: #1E1E1E;
+  display: inline-block;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
 }
 
 header {
-  max-width: 640px;
-  padding: 10px 0;
+
+  h1, h4 {
+    font-family: "Work Sans", Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h4 {
+    font-size: .75em;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .quote {
+    margin-left: 25px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .quote {
+      display: block;
+      margin-top: 10px;
+      margin-left: 2px;
+    }
+  }
+}
+
+#container {
+  position: relative;
+  left: 20px;
+  text-align: left;
+  margin-top: 50px;
+  max-width: 800px;
+
+  #button-container {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    z-index: 1;
+  }
 
   form {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
 
     select {
       -webkit-appearance: none;
       -moz-appearance: none;
-      font-size: 2em;
-      width: 50px;
-      height: 50px;
-      padding-left: 15px;
+      font-size: 1.5em;
+      width: 40px;
+      height: 35px;
+      padding-left: 12px;
       color: #eee;
-      background-color: #806163;
       border: 0;
-      border-bottom: 3px solid #333;
+      background-color: #1E1E1E;
       outline: 0;
       cursor: pointer;
 
       &:active {
-        border-bottom: 0;
-        border-top: 3px solid #806163;
+        border: 0;
+        border-top: 2px solid #1E1E1E;
       }
 
       option {
-        background-color: #806163;
+        background-color: #1E1E1E;
       }
+    }
+
+    .arrow {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 12px 20px 0 20px;
+      border-color: #F62459 transparent transparent transparent;
     }
   }
 
-  h1 {
-    color: #333;
-    opacity: 0.95;
-    font-family: "Work Sans", Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 800;
-    letter-spacing: 5px;
+  button {
+    font-size: 12px;
+    border: 0;
     display: inline-block;
     vertical-align: middle;
-  }
-}
-
-#container {
-  margin-top: 10px;
-}
-
-#copy-container {
-  width: 100%;
-
-  button {
-    border: 0;
-    border-bottom: 3px solid #333;
     color: #eee;
-    background-color: #806163;
-    padding: 10px 0;
-    width: 100%;
+    background-color: #1E1E1E;
+    padding: 0px 15px;
+    margin-left: 20px;
+    height: 35px;
+    border-bottom: 2px solid #F62459;
     outline: 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     cursor: pointer;
 
     &:active {
-      border-bottom: 0;
-      border-top: 3px solid #806163;
+      border: 0;
+      border-top: 2px solid #1E1E1E;
     }
   }
 }
 
-main {
-  max-width: 640px;
-  padding: 0 15px;
-  margin: 0 auto;
+#box {
+  background-color: #A6CAD2;
+  opacity: 0.8;
+  padding: 50px 15px 15px 30px;
+  z-index: 0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+}
 
-  #box {
-    background-color: rgba(236, 236, 236, .92);
-  }
+p {
+  padding: 15px 20px;
+  line-height: 2em;
+}
 
-  p {
-    padding: 15px 20px;
-    line-height: 2em;
+footer {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+
+  a {
+    color: #F62459;
+    text-decoration: none;
   }
 }

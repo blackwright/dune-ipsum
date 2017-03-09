@@ -4,6 +4,6 @@ var DUNE = {
   }
 };
 
-$(document).ready( () => {
+document.addEventListener("DOMContentLoaded", () => {
   DUNE.init();
 });

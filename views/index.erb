@@ -1,5 +1,12 @@
-<main>
-  <header>
+<header>
+  <div class="header-box">
+    <h1>Dune Ipsum</h1>
+  </div>
+  <h4 class="quote"><%= @quote %></h4>
+</header>
+
+<section id="container">
+  <div id="button-container">
     <form action="/" method="post">
       <select name="paragraphs" onchange="this.form.submit()">
         <option value="-" disabled selected>#</option>
@@ -9,16 +16,12 @@
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
+      <div class="arrow"></div>
     </form>
-    <h1>Dune Ipsum</h1>
-  </header>
-  
-  <section id="container">
-    <div id="copy-container">
-      <button data-clipboard-target="#box">Copy</button>
-    </div>
-    <div id="box">
-      <%= @text %>
-    </div>
-  </section>
-</main>
+    <button data-clipboard-target="#box">Copy text</button>
+    <button onClick="window.location.reload()">Other memory</button>
+  </div>
+  <div id="box">
+    <%= @text %>
+  </div>
+</section>
