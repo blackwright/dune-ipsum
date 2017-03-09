@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Eczar|Work+Sans");
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+/* Style */
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "Eczar", "Times New Roman", serif;
+  font-size: 16px;
+  color: #333;
+  background: #eee url("/img/dune.jpg") no-repeat;
+  background-size: cover;
+  padding: 60px 0; }
+
+header {
+  max-width: 640px;
+  padding: 10px 0; }
+  header form {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; }
+    header form select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-size: 2em;
+      width: 50px;
+      height: 50px;
+      padding-left: 15px;
+      color: #eee;
+      background-color: #806163;
+      border: 0;
+      border-bottom: 3px solid #333;
+      outline: 0;
+      cursor: pointer; }
+      header form select:active {
+        border-bottom: 0;
+        border-top: 3px solid #806163; }
+      header form select option {
+        background-color: #806163; }
+  header h1 {
+    color: #333;
+    opacity: 0.95;
+    font-family: "Work Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    display: inline-block;
+    vertical-align: middle; }
+
+#container {
+  margin-top: 10px; }
+
+#copy-container {
+  width: 100%; }
+  #copy-container button {
+    border: 0;
+    border-bottom: 3px solid #333;
+    color: #eee;
+    background-color: #806163;
+    padding: 10px 0;
+    width: 100%;
+    outline: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer; }
+    #copy-container button:active {
+      border-bottom: 0;
+      border-top: 3px solid #806163; }
+
+main {
+  max-width: 640px;
+  padding: 0 15px;
+  margin: 0 auto; }
+  main #box {
+    background-color: rgba(236, 236, 236, 0.92); }
+  main p {
+    padding: 15px 20px;
+    line-height: 2em; }
+
+/*# sourceMappingURL=styles.css.map */

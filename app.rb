@@ -1,15 +1,15 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require "./helpers/dune_helper"
 require './lib/paragraph'
 
-helpers DuneHelper
-
 get '/' do
-  @dune = Paragraph.new.text
+  @text = Paragraph.new.text
   erb :index
 end
 
-get '/:paragraphs' do
-
+post '/' do
+  num_paragraphs = params[:paragraphs].to_i
+  num_paragraphs = 5 if num_paragraphs > 5
+  @text = Paragraph.new(num_paragraphs).text
+  erb :index
 end

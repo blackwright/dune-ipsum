@@ -7,12 +7,14 @@ analyzes
 answers
 arouses
 attacks
+attempts to see
 avoids
 befalls
 believes
 betrays
 blames
 builds
+cannot die
 captures
 changes
 chooses
@@ -125,5 +127,6 @@ understands
 uses
 warns
 waylays
+will sing
 witnesses
 wrestles

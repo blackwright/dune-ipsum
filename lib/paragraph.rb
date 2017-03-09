@@ -21,7 +21,7 @@ class Paragraph
 
     def generate_paragraph
       paragraph = ""
-      4.times { paragraph << Sentence.new.text }
+      (rand 5..7).times { paragraph << Sentence.new.text }
       paragraph
     end
 end

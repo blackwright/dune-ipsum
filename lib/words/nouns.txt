@@ -261,7 +261,7 @@ spannungsbogen
 spice
 spit
 splinter
-St Alia-of-the-Knife
+St. Alia-of-the-Knife
 Stilgar
 stillsuit
 strategy
@@ -318,7 +318,7 @@ waters
 weakness
 Wellington
 wife
-winds
+wind
 windtrap
 wisdom
 worm
