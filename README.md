@@ -8,6 +8,10 @@ This is a Ruby web application written with Sinatra.
 
 Paragraphs are built using a predetermined range of sentence structures, drawing from randomized word lists using different parts of speech. The user can choose how many paragraphs are rendered, up to a maximum of five. Buttons for copying to the clipboard and generating new passages are present.
 
-### Screenshot
+### Desktop View
 
-![Screenshot](screenshot.jpg?raw=true)
+![Desktop view](screenshot1.jpg?raw=true)
+
+### Mobile View
+
+![Mobile view](screenshot2.jpg?raw=true)
