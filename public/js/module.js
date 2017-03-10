@@ -4,6 +4,7 @@ DUNE.Module = (function() {
   
   let init = () => {
     new Clipboard('button');
+    _resizeBackground();
     $(window).resize(_resizeBackground);
   };
 
