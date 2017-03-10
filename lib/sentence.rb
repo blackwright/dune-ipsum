@@ -1,7 +1,6 @@
 require_relative "word"
 
 class Sentence
-
   attr_reader :text
 
   STRUCTURES = [ "nvcn",
