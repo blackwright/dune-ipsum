@@ -1,6 +1,6 @@
 var DUNE = DUNE || {};
 
-DUNE.InitModule = (function() {
+DUNE.Module = (function() {
   
   let init = () => {
     new Clipboard('button');
@@ -8,7 +8,7 @@ DUNE.InitModule = (function() {
   };
 
   let _resizeBackground = () => {
-    $('body').height( $(window).height() + 60);
+    $('html').height( $(window).height() + 60);
   };
 
   return {
@@ -18,5 +18,5 @@ DUNE.InitModule = (function() {
 })();
 
 $(document).ready( () => {
-  DUNE.InitModule.init();
+  DUNE.Module.init();
 });
