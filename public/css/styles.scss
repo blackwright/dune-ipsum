@@ -15,9 +15,8 @@ html {
 }
 
 body {
-  font-family: "Eczar", "Times New Roman", serif;
-  font-size: 16px;
-  color: #1E1E1E;
+  position: fixed
+  top: 0;
   background: #eee url('/img/dune.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -29,6 +28,9 @@ body {
 }
 
 main {
+  font-family: "Eczar", "Times New Roman", serif;
+  font-size: 16px;
+  color: #1E1E1E;
   padding: 0 40px;
   position: relative;
 }
