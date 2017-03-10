@@ -10,8 +10,8 @@ Paragraphs are built using a predetermined range of sentence structures, drawing
 
 ### Desktop View
 
-![Desktop view](https://github.com/blackwright/dune-ipsum/screenshots/screenshot1.jpg?raw=true)
+![Desktop view](https://github.com/blackwright/dune-ipsum/blob/master/screenshots/screenshot1.jpg?raw=true)
 
 ### Mobile View
 
-![Mobile view](https://github.com/blackwright/dune-ipsum/screenshots/screenshot2.jpg?raw=true)
+![Mobile view](https://github.com/blackwright/dune-ipsum/blob/master/screenshots/screenshot2.jpg?raw=true)
