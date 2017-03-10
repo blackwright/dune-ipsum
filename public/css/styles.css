@@ -74,7 +74,8 @@ header h4 {
   font-weight: 600;
   letter-spacing: 2px; }
 header .quote {
-  margin-left: 25px; }
+  margin-left: 25px;
+  line-height: 20px; }
 @media screen and (max-width: 767px) {
   header .quote {
     display: block;
