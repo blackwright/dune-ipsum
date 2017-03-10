@@ -10,12 +10,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Style */
 
-html {
-  height: 100%;
-}
-
 body {
-  position: fixed
+  position: fixed;
   top: 0;
   background: #eee url('/img/dune.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -177,7 +173,7 @@ footer {
   color: white;
   position: absolute;
   left: 40px;
-  bottom: 0;
+  bottom: 60px;
 
   a {
     color: white;

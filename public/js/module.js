@@ -9,7 +9,7 @@ DUNE.Module = (function() {
   };
 
   let _resizeBackground = () => {
-    $('html').height( $(window).height() + 60);
+    $('body').height( $(window).height() + 60);
   };
 
   return {
