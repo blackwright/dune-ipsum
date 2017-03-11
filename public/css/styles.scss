@@ -10,6 +10,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Style */
 
+html {
+  height: 100%;
+}
+
 #background {
   position: fixed;
   top: 0;
@@ -197,7 +201,7 @@ footer {
       left: 0;
 
       button {
-        width: 90px;
+        width: 85px;
         margin-left: 10px;
         padding: 0;
       }
