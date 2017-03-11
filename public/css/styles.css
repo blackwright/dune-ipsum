@@ -31,6 +31,9 @@ table {
   box-sizing: border-box; }
 
 /* Style */
+html {
+  height: 100%; }
+
 #background {
   position: fixed;
   top: 0;
@@ -48,7 +51,8 @@ body {
   position: relative;
   font-family: "Eczar", "Times New Roman", serif;
   font-size: 16px;
-  padding-bottom: 75px; }
+  padding-bottom: 75px;
+  min-height: 100%; }
 
 main {
   padding: 0 40px; }
